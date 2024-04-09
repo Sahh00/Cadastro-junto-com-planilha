@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* cor de fundo pastel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff; /* fundo branco para o formulário */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombra leve para dar profundidade */
+    width: 100%;
+    max-width: 400px; /* máximo de 400px de largura */
+}
+
+.planilha {
+    margin-left: 50px;
+    background-color: #ffffff; /* fundo branco para o formulário */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombra leve para dar profundidade */
+    width: 100%;
+    max-width: 400px; /* máximo de 400px de largura */
+
+}
+
+h1 {
+    color: #333; /* cor escura, mas suave, para o texto */
+    margin-bottom: 24px; /* espaçamento abaixo do título */
+}
+
+label {
+    margin-bottom: 15px; /* espaçamento entre os campos */
+    display: block; /* faz cada label usar sua própria linha */
+}
+
+label span {
+    display: block;
+    color: #666; /* cor suave para os textos dos labels */
+    margin-bottom: 5px; /* pequeno espaço entre o texto do label e o input */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* faz os inputs ocuparem toda a largura do label */
+    padding: 10px;
+    margin-top: 5px; /* um pequeno espaço do texto do label */
+    border: 1px solid #ccc; /* borda suave */
+    border-radius: 4px; /* bordas levemente arredondadas */
+    box-sizing: border-box; /* garante que padding não aumente a largura do input */
+    font-size: 17px
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f9a1bc; /* cor pastel para o botão */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* espaço antes do botão */
+}
+
+button:hover {
+    background-color: #f781a8; /* uma cor um pouco mais escura no hover */
+}
+
+.loading {
+    width: 30px;
+    animation: rodar 0.9s infinite linear;
+}
+
+@keyframes rodar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Cadastro com Excel</title>
+</head>
+<body>
+    <form>
+        <h1>CADASTRO</h1>
+        <label for="#">
+            <span>Nome</span>
+            <input type="text" name="Nome" id="Nome" placeholder="Digite seu Nome...">
+        </label>
+
+        <label for="">
+            <span>Email</span>
+            <input type="text" name="Email" id="Email" placeholder="Digite seu Email...">
+        </label>
+
+        <label for="">
+            <span>Senha</span>
+            <input type="password" name="Senha" id="Senha" placeholder="Digite sua Senha...">
+        </label>
+        <button type="submit" id="button">
+            Enviar
+        </button>
+    </form>
+    <form action="#" class="planilha">
+        <label for="">
+            <span>Coloque o link do Sheet Monkey para testar: </span>
+            <input type="url" id="planilha" placeholder="URL">
+            <button onclick="url()">
+                Enviar
+            </button>
+        </label>
+    </form>
+</body>
+</html>
